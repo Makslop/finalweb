@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+main {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+
+.auth-buttons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sectionAbout {
+    position: relative;
+    text-align: center;
+}
+
+.sectionAbout-1 {
+    background-position: center/cover;
+    color: #fff;
+    padding: 50px;
+    min-height: 460px;
+}
+
+.sectionAbout-1 .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.sectionAbout-1 h2 {
+    font-weight: bold;
+}
+
+.sectionAbout-2 {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    min-height: 150px;
+}
+
+.sectionAbout-2 .hrStyle {
+    border: 1px solid black;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.sectionAbout-2 h2 {
+    font-weight: bold;
+    color: #000;
+}
+
+.sectionAbout-2 p {
+    margin: 0;
+}
+
+.sectionAbout-3 {
+    background: #f2f2f2;
+    color: #333;
+    padding: 20px;
+    min-height: 200px;
+}
+
+.sectionAbout-3 .hrStyle {
+    border: 1px solid black;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.sectionAbout-3 h2 {
+    font-weight: bold;
+    color: #000;
+}
+
+.tableStyle {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.thTdStyle {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
